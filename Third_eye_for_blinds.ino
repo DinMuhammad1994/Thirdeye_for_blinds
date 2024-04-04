@@ -2,11 +2,11 @@
 
 
 
-  const int pingTrigPin = 1; //Trigger connected to PIN 7   
-  const int pingEchoPin = 0; //Echo connected yo PIN 8   
-  int buz=2; //Buzzer to PIN  11  
-  int vibrator = 4;  //vibrator to PIN 10
-  int led=3;   // LEd to pin 2
+  const int pingTrigPin = 1; //Trigger connected to PIN 1   
+  const int pingEchoPin = 0; //Echo connected yo PIN 0   
+  int buz=2; //Buzzer to PIN  2  
+  int vibrator = 4;  //vibrator to PIN 4
+  int led=3;   // LEd to pin 3
   void setup() {   
  // Serial.begin(9600);   
   pinMode(buz, OUTPUT);   
